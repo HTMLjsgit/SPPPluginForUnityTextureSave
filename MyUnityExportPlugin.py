@@ -6,9 +6,6 @@ import logging
 from PySide6.QtWidgets import QApplication, QMenu
 from PySide6.QtGui import QAction
 
-#logger = logging.getLogger("MyUnityExportPlugin")
-#URP_PRESET_PATH = r"C:\Users\newmi\Documents\Adobe\Adobe Substance 3D Painter\assets\export-presets\Unity Universal Render Pipeline (Specular).spexp"
-
 
 class UnityExportSubmenu(QMenu):
     def __init__(self, parent=None):
